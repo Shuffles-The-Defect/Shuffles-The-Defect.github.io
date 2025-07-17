@@ -305,10 +305,10 @@ let locations = [{
     },
     {
         hex: "g1",
-        name: "Adjunt court of hell",
+        name: "Office of the Averniad",
         text: "<p>A tall, perfectly square tower filled with a Kafka-esque bureaucracy. Although lower staff members are devils of various sorts, the judges and upper management are Rilmani – perfect embodiments of neutrality who oversee and resolve disputes over infernal contracts.</p> <p>These courts operate under the authority of Primus, as established in the Trial of Asmodeus. (The history of the Trial, along with “fun” facts like Zariel’s small part in that ancient history, can likely be established if anyone asks questions.)</p> <p>Research at the court can also provide useful information about how infernal contracts (like the contract Zariel uses to hold Elturel in Avernus) can be broken. PCs might think to litigate the Elturian contract, but that probably won’t pan out unless the PCs go to truly extraordinary efforts (which will almost certainly earn them the eternal enmity of the forces of neutrality if it is ever discovered): the contract is, legally speaking, impregnable.</p>",
         terrain: ["mountains"],
-        status: "U",
+        status: "K",
         item: ""
     },
     {
@@ -348,7 +348,7 @@ let locations = [{
         name: "Zariel's bridge",
         text: "<p>A bridge spans the Styx here, guarded on each end by a Styx Watchtower. The original bridge which stood here was destroyed during the Rift War and the new bridge was dedicated to Zariel’s glorious victory and ascension to Archduchess. Bas reliefs along the bridge depict various incidents from Zariel’s life, with accompany infernal inscriptions:</p> <ul> <li><strong>Averniad</strong>: Zariel is depicted (anachronistically in her fiendish form) in the midst of a lush, verdant paradise. (Inscription: “She served in the armies of the Lord of the Nine in the younger days, when Avernus had not yet become the Ninth.”)</li> <li><strong>Zariel &amp; Lulu</strong>: Zariel (anachronistically in her fiendish form) is depicted with Lulu, Yael, Haruman, and five devils. Their names are listed in Infernal cartouches (the otherwise unknwon devil’s names being given as Zilannen, Tozromon, Brullmerath, Xilka, and Venthroxoth). (Inscription: “In memory of her comrades lost over the long eons of struggle.”)</li> <li><strong>Zariel’s Fall</strong>: Zariel is depicted kneeling before Asmodeus, her wings aflame as her “impurities” are burnt away. (Inscription: “At the feet of the Archfiend her heart was opened to the truth, and she ascended to the ranks of the esteemed.”)</li> <li><strong>Zariel’s Imprisonment</strong>: Zariel is depicted in chains. Above her are the five heads of Tiamat. (Inscription: “At the false word of the coward Bel, she was sealed in the prisons of the Progenitor.” <em>Note</em>: <em>One of Tiamat’s titles is the Progenitor of Hell</em>.)</li> <li><strong>Second Avernian March</strong>: Zariel is on the front lines of a titanic battle between devils and strange creatures which seem neither demon nor devil. A DC 16 Intelligence (Arcana) check recognizes the creatures as baatorians. (Inscription: “In glory did she triumph where false Bel failed, in the name of the Lord of Nessus.”)</li> <li><strong>Zariel Becomes Archduchess</strong>: Zariel is crowned by Asmodeus. (“All hail the Archduchess of Avernus, may she rule eternal at the left hand of the Archfiend.”)</li> </ul>",
         terrain: ["waste"],
-        status: "U",
+        status: "K",
         item: ""
     },
     {
@@ -396,15 +396,15 @@ let locations = [{
         name: "Stygian dock",
         text: "<ul> <li><em>Descent Into Avernus</em>, p. 123</li> <li>On River</li> </ul> <p>Bazelsteen has a set of <strong>astral pistons</strong> that he keeps for repairing antique infernal machines, which he’ll exchange for assistance with Test Run 221 (DIA, p. 124).</p> <p>50% chance that a flying fortress is docked. 1 in 3 chance that it’s Zariel’s.</p> <blockquote> <p><em>Design Note: Developing the commanders of the other two flying fortresses currently making regular pit stops at this dock might be something worth pursuing.</em></p> </blockquote>",
         terrain: ["waste"],
-        status: "U",
+        status: "E",
         item: "astral pistons"
     },
     {
         hex: "h5",
-        name: "Elemental galleon",
+        name: "Crashed galleon",
         text: "<ul> <li><a href=\"https://www.dmsguild.com/product/294570/Abyssal-Incursion?affiliate_id=81207\"><em>Abyssal Incursion</em></a>, p. 4</li> <li>On River</li> </ul> <p>The <em>Mirror’s Edge</em>, an elemental galleon from the world of Eberron, has crashed on the shores of the Styx.</p>",
         terrain: ["waste"],
-        status: "K",
+        status: "E",
         item: ""
     },
     {
@@ -412,7 +412,7 @@ let locations = [{
         name: "Modron outpost",
         text: "<ul> <li>Visible 2 (volcano) / Hidden (outpost, see below)</li> </ul> <p>Clinging to the inside wall of a volcano’s caldera is a modron outpost. A huge geothermal spike thrusts down into the volcano below, powering a clockwork menagerie of technomantic marvels within the outpost. Upon occasion, the outpost extends an astral antenna above the rim of the volcano to take readings and also broadcast transplanar reports. The antenna can also provide access to the outpost.</p> <p>(When this antenna is raised, it can be visible to a great distance. The outpost should otherwise be considered a Hidden location.)</p> <p>The modrons use this outpost to monitor the Blood War. Its presence is known to the local Blood Legions and tolerated: partly because they’ve learned that if they destroy these monitoring outposts, the modrons just build more; partly because the modrons have also been known to trade valuable technomantic items upon occasion.</p> <p>The modrons have a supply of <strong>Nivanan cogboxes</strong>.</p>",
         terrain: ["volcano"],
-        status: "U",
+        status: "E",
         item: ""
     },
     {
@@ -457,10 +457,10 @@ let locations = [{
     },
     {
         hex: "i6",
-        name: "Shadowswimmer tower",
+        name: "Temporary Location of Mahadi",
         text: "<ul> <li><em><a href=\"https://www.dmsguild.com/product/291677/DDAL0907-The-Diabolical-Dive?affiliate_id=81207\">The Diabolical Dive</a></em></li> <li>On River</li> </ul> <p>Respen Shadowswimmer escaped Plagueshield Point (Hex G5b) shortly after it was sucked into Hell and eventually found his way to this abandoned tower, which he has made his own. An arcane researcher, he is fascinated by the properties of the Styx and has been researching its long-term effects on various creatures. Most recently this has resulted in the creation Stygian behemoths.</p> <p>Respen Shadowswimmer used a <strong>heartstone</strong> during his research at Plagueshield Point, but wasn’t able to bring it along. He’d dearly prize a replacement, as he thinks it would prove invaluable in continuing his research here.</p> <hr>",
         terrain: ["waste"],
-        status: "U",
+        status: "K",
         item: "heartstone"
     },
     {
